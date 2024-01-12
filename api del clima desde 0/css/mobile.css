@@ -1,0 +1,89 @@
+@media (max-width:470px) {
+
+   
+    body{margin: 0;
+    padding: 0;}
+      main{
+        display: flex;
+       font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 0;
+     
+      
+      
+       
+      }
+      .secti{width: 100%;
+        background-color:rgba(71, 64, 64, 0.5);
+        
+    height: 56%;}
+      .fondo{
+        height: 35%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        
+      }
+
+      .nube{
+        margin-bottom: 3%;
+      }
+      
+
+      .grado{margin: 10%;}
+
+      .informacion{
+        display: flex;
+        flex-direction: column;
+        margin: 25%;
+      align-items: center;}
+
+      .otro{margin: 10%;}
+
+      .lat{margin: 20%;}
+      .long{margin: 50%;}
+      .info{color: #fff;
+        width: 48.3%;
+      
+    background-color: #000;
+        height: 13vh;
+        margin: 5px 3px;
+        border-radius: 20px;
+         box-shadow: none;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+       
+        animation: none;
+      }
+      .container
+  {background-color: none}
+      .icono{width: 100%;}
+
+      .container{display: flex;
+      flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #000;
+    border-radius: 20px;}
+
+    input{margin-top: 20px;
+      width: 85%;
+      
+      border-bottom: 1px ;
+     margin-top: 5px;
+      outline: none;
+      background-color: transparent;
+      padding: 10px;
+      color: #fff;
+      font-size: 18px;
+      box-shadow: 0 -1px green;
+      animation: shadow-pulse 1s infinite;
+      
+    }
+
+ 
+    
+}
